@@ -100,3 +100,24 @@ src/
     └── SeasonService.luau
     └── GlobalRank.luau
     └── RoomService.luau
+````
+
+## Code Philosophy
+
+I generally structure systems around:
+
+* Clear ownership of state
+* Small public APIs with hidden internal implementation
+* Server-side validation of important actions
+* Configuration separated from runtime logic
+* Explicit cleanup of events, instances, and temporary state
+* Systems that can be extended without rewriting their foundations
+* Readable naming and predictable control flow
+
+## Important Notes
+
+These files were taken from larger Roblox projects. Some dependencies, assets, UI code, remotes, and project-specific integrations are not included.
+
+The repository is provided for portfolio and code-review purposes. It is not intended to be inserted directly into another project without adapting the surrounding architecture.
+
+The repository is provided for portfolio and code-review purposes. It is not intended to be inserted directly into another project without adapting the surrounding architecture.
