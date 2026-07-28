@@ -86,19 +86,20 @@ The code in this repository demonstrates experience with:
 ## Repository Structure
 
 ```text
-src/
+backend-showcase/
 ├── Matchmaking/
-│   └── MatchmakingService.luau
+│   ├── MatchmakingService.luau
 │   └── RoomService.luau
-├── Tiles/
-│   ├── TileController.luau
-│   └── TileTaxonomy.luau
-│   └── TileGenerator.luau
+├── Progression/
+│   ├── GlobalRank.luau
+│   └── SeasonService.luau
 ├── Rules/
 │   └── RuleController.luau
-└── Progression/
-    └── SeasonService.luau
-    └── GlobalRank.luau
+├── Tiles/
+│   ├── TileController.luau
+│   ├── TileGenerator.luau
+│   └── TileTaxonomy.luau
+└── README.md
 ````
 
 ## Code Philosophy
