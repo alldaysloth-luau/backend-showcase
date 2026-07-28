@@ -99,7 +99,6 @@ src/
 └── Progression/
     └── SeasonService.luau
     └── GlobalRank.luau
-    └── RoomService.luau
 ````
 
 ## Code Philosophy
