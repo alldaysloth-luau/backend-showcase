@@ -119,5 +119,3 @@ I generally structure systems around:
 These files were taken from larger Roblox projects. Some dependencies, assets, UI code, remotes, and project-specific integrations are not included.
 
 The repository is provided for portfolio and code-review purposes. It is not intended to be inserted directly into another project without adapting the surrounding architecture.
-
-The repository is provided for portfolio and code-review purposes. It is not intended to be inserted directly into another project without adapting the surrounding architecture.
